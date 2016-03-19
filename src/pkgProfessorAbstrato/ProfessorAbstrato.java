@@ -11,10 +11,10 @@ public abstract class ProfessorAbstrato {
         matricula = m;
         idade = i;
     }
-
+    //Imprime os dados
     public String imprimeDados() {
 
-        return "Nome: " + nome + "\nMatrícula: " + matricula + "\nIdade: " + idade;
+        return "Nome= " + nome + "\nMatrícula: " + matricula + "\nIdade: " + idade;
     }
 
     public abstract double retornaSalario();
